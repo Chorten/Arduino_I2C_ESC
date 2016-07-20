@@ -1,6 +1,7 @@
 #include "Arduino_I2C_ESC.h"
 #include <Wire.h>
 
+#This is a test!
 namespace {
   uint8_t _buffer[9];
 }
