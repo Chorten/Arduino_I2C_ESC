@@ -39,7 +39,10 @@ THE SOFTWARE.
 #include <Wire.h>
 #include "Arduino_I2C_ESC.h"
 
+// Defining all possible ESC addresses
+
 #define ESC_ADDRESS 0x29
+#define ESC_ADDRESS2 0x2a
 
 Arduino_I2C_ESC motor(ESC_ADDRESS);
 
